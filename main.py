@@ -39,6 +39,9 @@ evan_the_customer.list_products()
 
 evans_cell_phone = CellPhone('iPhone: Some number, I already forgot')
 
+for contact in evans_cell_phone.contacts:
+    print(f'{contact.get("name")} | {contact.get("phone_number")}')
+
 evans_cell_phone.recieve_text_messsage(evans_cell_phone.send_text_message())
 evans_cell_phone.recieve_text_messsage(evans_cell_phone.send_text_message())
 
