@@ -10,4 +10,4 @@ class Customer:
 
     def list_products(self):
         for product in self.customer_cart.products_in_cart:
-            print(product)
+            print(f'{product.name} | {product.price} | {product.category}')
