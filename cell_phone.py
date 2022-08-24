@@ -36,3 +36,4 @@ class CellPhone:
     def send_text_message(self):
         text_message = input('Write your message: ')
         print(text_message)
+        return(text_message)
